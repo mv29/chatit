@@ -1,12 +1,21 @@
-<div class="container">
+<div class="container" style="padding: 0px">
     <h2>Education</h2>
-    <div class="row" style="padding-top: 10px;border: 1px solid yellow;height: 500px">
-    <table class="grid" style="width:90%; margin: 10px">
-        <tbody id="education">
+    <div class="row table-responsive" style="padding-top: 10px;border: 1px solid yellow;height: 500px">
+    <table class="grid" style="width:99%; margin: 8px;border-collapse: separate;border-spacing: 1em 1em;">
+        <tbody id="education" >
+         {{#each message}}
+         <tr style="margin:10px ;margin-left:80px ">
+             <td  style="background-color:yellow; width: 10%">{{user}}</td>
+             <td  style="background-color:blue; width :90%">{{mess}} </td>
+         </tr>
+         {{/each}}
+
         </tbody>
     </table>
+
     </div>
-    <div class="container " id="chatbox" style="margin-top: 10px">
+
+    <div class="container " id="chatbox" style="margin-top: 8px;padding-left: 0px;padding-right:10px ">
         <div class="row">
                 <input class="form-control col md-11" type="text" id="inp-msg">
                 <button class="btn btn-info" id="btn-send" value="/education" type="submit" >SEND</button>

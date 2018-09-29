@@ -11,6 +11,7 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             education.emit('chat', {
                 message: data.message,
+                author:  data.author,
                 timestamp: new Date()
             })
         })
@@ -21,6 +22,7 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             love.emit('chat', {
                 message: data.message,
+                author:  data.author,
                 timestamp: new Date()
             })
         })
@@ -32,6 +34,8 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             peace.emit('chat', {
                 message: data.message,
+                author:  data.author,
+
                 timestamp: new Date()
             })
         })
@@ -42,6 +46,7 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             fitness.emit('chat', {
                 message: data.message,
+                author:  data.author,
                 timestamp: new Date()
             })
         })
@@ -52,6 +57,7 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             entertainment.emit('chat', {
                 message: data.message,
+                author:  data.author,
                 timestamp: new Date()
             })
         })
@@ -62,6 +68,7 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             travelling.emit('chat', {
                 message: data.message,
+                author:  data.author,
                 timestamp: new Date()
             })
         })
@@ -72,6 +79,7 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             politics.emit('chat', {
                 message: data.message,
+                author:  data.author,
                 timestamp: new Date()
             })
         })
@@ -82,6 +90,7 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             technology.emit('chat', {
                 message: data.message,
+                author:  data.author,
                 timestamp: new Date()
             })
         })
@@ -92,6 +101,7 @@ module.exports = function(server) {
         socket.on('chat', (data) => {
             sports.emit('chat', {
                 message: data.message,
+                author:  data.author,
                 timestamp: new Date()
             })
         })

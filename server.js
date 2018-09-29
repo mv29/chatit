@@ -47,12 +47,12 @@ app.use('/education',require('./routes/education'));
 app.use('/peace',require('./routes/peace'));
 app.use('/sports',require('./routes/sports'));
 app.use('/politics',require('./routes/politics'));
-app.use('/entertairment',require('./routes/entertairment'));
+app.use('/entertainment',require('./routes/entertainment'));
 app.use('/travelling',require('./routes/travelling'));
 app.use('/fitness',require('./routes/fitness'));
 app.use('/love',require('./routes/love'));
 app.use('/technology',require('./routes/technology'));
-
+app.use('/',require('./routes/home'));
 // hbs
 app.set('view engine', 'hbs');
 app.engine('hbs', hbs.express4({

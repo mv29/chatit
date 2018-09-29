@@ -6,7 +6,7 @@ const passport = require('../passport');
 router.post('/',
     passport.authenticate('local', { failureRedirect: '/login',failureFlash: false }),
     function(req, res) {
-        res.redirect("/profile");
+        res.redirect("/home");
     });
 router.get('/',login);
 

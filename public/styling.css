@@ -81,12 +81,7 @@ hr {
     background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.products{
-    padding: 0px;
-    height:300px;
-    margin:0px;
-    width:300px
-}
+
 h2{
     margin-top:90px;
     margin-bottom:0%;
@@ -102,4 +97,7 @@ h2{
     text-align: center;
     margin-right: 15px;
     color: black;
+}
+td {
+    text-align:center;
 }
