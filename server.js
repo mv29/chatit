@@ -69,6 +69,6 @@ app.use('/', express.static(__dirname + '/public')); // app.use returns a functi
 var port = 5000 || process.env.PORT;
 
 server.listen(port,()=> {  // inline arrow function
-    console.log("server running on http://localhost:3210");
+    console.log("server running");
 });
 
