@@ -27,7 +27,7 @@ app.use(passport.session());
 
 // database connection
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/sellkar');
+mongoose.connect(/*'mongodb://localhost/sellkar'*/'mongodb://mrinal:solarpower29@ds119343.mlab.com:19343/chatit');
 mongoose.Promise = global.Promise;
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
@@ -66,7 +66,9 @@ app.engine('hbs', hbs.express4({
 app.set('views', path.join(__dirname, 'views/pages'));
 app.use('/', express.static(__dirname + '/public')); // app.use returns a function
 
-server.listen('3210',()=> {  // inline arrow function
+var port = 5000 || process.env.PORT;
+
+server.listen(port,()=> {  // inline arrow function
     console.log("server running on http://localhost:3210");
 });
 
