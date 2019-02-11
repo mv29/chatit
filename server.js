@@ -27,7 +27,7 @@ app.use(passport.session());
 
 // database connection
 const mongoose = require('mongoose');
-mongoose.connect(/*'mongodb://localhost/sellkar'*/'mongodb://mrinal:solarpower29@ds119343.mlab.com:19343/chatit');
+mongoose.connect('mongodb://localhost/sellkar'/*'mongodb://mrinal:solarpower29@ds119343.mlab.com:19343/chatit'*/);
 mongoose.Promise = global.Promise;
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
@@ -41,7 +41,6 @@ require("./socket")(server);
 // routes
 app.use('/signup',require('./routes/signup'));
 app.use('/login',require('./routes/login'));
-app.use('/profile',require('./routes/profile'));
 app.use('/home',require('./routes/home'));
 app.use('/education',require('./routes/education'));
 app.use('/peace',require('./routes/peace'));
@@ -52,7 +51,9 @@ app.use('/travelling',require('./routes/travelling'));
 app.use('/fitness',require('./routes/fitness'));
 app.use('/love',require('./routes/love'));
 app.use('/technology',require('./routes/technology'));
-app.use('/',require('./routes/home'));
+app.get('/', function(req, res){
+    res.redirect('/todo');
+});
 // hbs
 app.set('view engine', 'hbs');
 app.engine('hbs', hbs.express4({
@@ -66,7 +67,7 @@ app.engine('hbs', hbs.express4({
 app.set('views', path.join(__dirname, 'views/pages'));
 app.use('/', express.static(__dirname + '/public')); // app.use returns a function
 
-var port = 5000 || process.env.PORT;
+let port = 3220;
 
 server.listen(port,()=> {  // inline arrow function
     console.log("server running");

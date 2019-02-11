@@ -1,8 +1,8 @@
 
 h1{
-    height: 150px;
+    height: 100px;
     text-align: center;
-    font-size: 90px;
+    font-size: 70px;
     background: #fceabb;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

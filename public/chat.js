@@ -13,7 +13,6 @@ $(function () {
     let sports = io('/sports');
 
 
-
     let main=[];
     main['/education']=[education];
     main['/entertainment']=[entertainment];
@@ -74,8 +73,14 @@ $(function () {
           li1.style.margin="10px";
           li1.style.marginLeft="80px";
           li1.style.padding="10px";
-          li2.style.background="yellow";
-          li3.style.background="blue";
+          li2.style.background="white";
+          li3.style.background="white";
+          li2.style.borderColor="black";
+          li2.style.borderStyle="solid";
+          li2.style.borderWidth="1px";
+          li3.style.borderColor="black";
+          li3.style.borderStyle="solid";
+          li3.style.borderWidth="1px";
           li2.style.width="10%";
           li3.style.width="90%";
         //li1.color=randomColor;
@@ -96,8 +101,14 @@ $(function () {
         li1.style.margin="10px";
         li1.style.marginLeft="80px";
         li1.style.padding="10px";
-        li2.style.background="yellow";
-        li3.style.background="blue";
+        li2.style.background="white";
+        li3.style.background="white";
+        li2.style.borderColor="black";
+        li2.style.borderStyle="solid";
+        li2.style.borderWidth="1px";
+        li3.style.borderColor="black";
+        li3.style.borderStyle="solid";
+        li3.style.borderWidth="1px";
         li2.style.width="10%";
         li3.style.width="90%";
         //li1.color=randomColor;
@@ -119,8 +130,15 @@ $(function () {
         li1.style.margin="10px";
         li1.style.marginLeft="80px";
         li1.style.padding="10px";
-        li2.style.background="yellow";
-        li3.style.background="blue";
+        li2.style.background="white";
+        li3.style.background="white";
+        li2.style.borderColor="black";
+        li2.style.borderStyle="solid";
+        li2.style.borderWidth="1px";
+        li3.style.borderColor="black";
+        li3.style.borderStyle="solid";
+        li3.style.borderWidth="1px";
+
         li2.style.width="10%";
         li3.style.width="90%";
         //li1.color=randomColor;
@@ -141,8 +159,15 @@ $(function () {
         li1.style.margin="10px";
         li1.style.marginLeft="80px";
         li1.style.padding="10px";
-        li2.style.background="yellow";
-        li3.style.background="blue";
+        li2.style.background="white";
+        li3.style.background="white";
+        li2.style.borderColor="black";
+        li2.style.borderStyle="solid";
+        li2.style.borderWidth="1px";
+        li3.style.borderColor="black";
+        li3.style.borderStyle="solid";
+        li3.style.borderWidth="1px";
+
         li2.style.width="10%";
         li3.style.width="90%";
         //li1.color=randomColor;
@@ -163,8 +188,15 @@ $(function () {
         li1.style.margin="10px";
         li1.style.marginLeft="80px";
         li1.style.padding="10px";
-        li2.style.background="yellow";
-        li3.style.background="blue";
+        li2.style.background="white";
+        li3.style.background="white";
+        li2.style.borderColor="black";
+        li2.style.borderStyle="solid";
+        li2.style.borderWidth="1px";
+        li3.style.borderColor="black";
+        li3.style.borderStyle="solid";
+        li3.style.borderWidth="1px";
+
         li2.style.width="10%";
         li3.style.width="90%";
         //li1.color=randomColor;
@@ -185,8 +217,15 @@ $(function () {
         li1.style.margin="10px";
         li1.style.marginLeft="80px";
         li1.style.padding="10px";
-        li2.style.background="yellow";
-        li3.style.background="blue";
+        li2.style.background="white";
+        li3.style.background="white";
+        li2.style.borderColor="black";
+        li2.style.borderStyle="solid";
+        li2.style.borderWidth="1px";
+        li3.style.borderColor="black";
+        li3.style.borderStyle="solid";
+        li3.style.borderWidth="1px";
+
         li2.style.width="10%";
         li3.style.width="90%";
         //li1.color=randomColor;
@@ -207,8 +246,14 @@ $(function () {
         li1.style.margin="10px";
         li1.style.marginLeft="80px";
         li1.style.padding="10px";
-        li2.style.background="yellow";
-        li3.style.background="blue";
+        li2.style.background="white";
+        li3.style.background="white";
+        li2.style.borderColor="black";
+        li2.style.borderStyle="solid";
+        li2.style.borderWidth="1px";
+        li3.style.borderColor="black";
+        li3.style.borderStyle="solid";
+        li3.style.borderWidth="1px";
         li2.style.width="10%";
         li3.style.width="90%";
         //li1.color=randomColor;
@@ -229,8 +274,15 @@ $(function () {
         li1.style.margin="10px";
         li1.style.marginLeft="80px";
         li1.style.padding="10px";
-        li2.style.background="yellow";
-        li3.style.background="blue";
+        li2.style.background="white";
+        li3.style.background="white";
+        li2.style.borderColor="black";
+        li2.style.borderStyle="solid";
+        li2.style.borderWidth="1px";
+        li3.style.borderColor="black";
+        li3.style.borderStyle="solid";
+        li3.style.borderWidth="1px";
+
         li2.style.width="10%";
         li3.style.width="90%";
         //li1.color=randomColor;
@@ -252,8 +304,14 @@ $(function () {
         li1.style.margin="10px";
         li1.style.marginLeft="80px";
         li1.style.padding="10px";
-        li2.style.background="yellow";
-        li3.style.background="blue";
+        li2.style.background="white";
+        li3.style.background="white";
+        li2.style.borderColor="black";
+        li2.style.borderStyle="solid";
+        li2.style.borderWidth="1px";
+        li3.style.borderColor="black";
+        li3.style.borderStyle="solid";
+        li3.style.borderWidth="1px";
         li2.style.width="10%";
         li3.style.width="90%";
         //li1.color=randomColor;

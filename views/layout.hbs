@@ -16,8 +16,37 @@
 <body>
 <h1>
     <a href="/home" style="color:gray;text-decoration:none">ChatIt</a>
+
 </h1>
-<div class="container hbs" ">
+
+<div class="btn-group d-inline-block">
+
+        <button class="btn btn-secondary" type="button" href="home">Home</button>
+        <button class="btn btn-secondary" type="button" href="/signup">SignUp</button>
+        <button class="btn btn-secondary" type="button" href="/loign">Login</button>
+</div>
+
+<div class="dropdown show d-inline-block">
+
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Communities
+    </button>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="/education">Education</a>
+        <a class="dropdown-item" href="/travelling">Travelling</a>
+        <a class="dropdown-item" href="/politics">Politics</a>
+        <a class="dropdown-item" href="/entertainment">Entertainment</a>
+        <a class="dropdown-item" href="/sports">Sports</a>
+        <a class="dropdown-item" href="/technology">Technology</a>
+        <a class="dropdown-item" href="/love">Love</a>
+        <a class="dropdown-item" href="/fitness">Fitness</a>
+        <a class="dropdown-item" href="/peace">Peace</a>
+
+    </div>
+</div>
+
+<div class="container hbs">
     {{{body}}}
 </div>
 <footer class="page-footer font-small" id="footer" >
